@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin : 'eclipse-wtp'
+
+repositories {
+	mavenCentral();
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    testCompile 'junit:junit:4.12'
+    
+    // JSF
+    compile 'com.sun.faces:jsf-api:2.2.12'
+    compile 'com.sun.faces:jsf-impl:2.2.12'
+    
+   //Selenium
+   compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.53.1'
+   compile group: 'org.seleniumhq.selenium', name: 'selenium-server', version: '2.53.1'
+}
