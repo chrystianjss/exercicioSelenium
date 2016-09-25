@@ -1,0 +1,26 @@
+# OS Files #
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+# Eclipse Files #
+build
+.settings/*
+.classpath
+
+# Temporary Files #
+WEB-INF/classes/*
+*.orig
+
+# Other Files #
+*.zip
+*.pdf
+*.swp
+*~
+
+/bin
+/build
+
+/*.metadata/
